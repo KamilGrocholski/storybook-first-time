@@ -1,0 +1,47 @@
+.pr {
+    padding-right: 10rem;
+}
+
+.side-nav {
+    height: 100vh;
+    width: max-content;
+    background-color: rgb(44, 44, 44);
+    color: rgb(136, 136, 136);
+    font-size: 1.3rem;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(136, 136, 136);
+}
+
+.link-item {
+    align-items: center;
+    padding-left: 0.25rem;
+    padding-right: 0.5rem;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+    a {
+        display: flex;
+        flex-direction: row;
+    }
+
+    &:hover {
+        a {
+            color: rgba(179, 179, 179, 0.5)!important;
+        }
+    }
+}
+
+.is-expanded-toggle-button {
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    width: 100%;
+}
+
+.link-items-container {
+    display: flex;
+    flex-direction: column;
+    justify-items: start;
+    margin-bottom: auto;
+    height: 100%;
+}

@@ -1,0 +1,62 @@
+input {
+    border: none;
+    outline: none;
+}
+
+button {
+    border: none;
+    outline: none;
+}
+
+.suggestions-container {
+    position: absolute;
+    top: 3.3rem;
+    left: 0;
+    right: 0;
+    background-color: rgb(49, 49, 49);
+    padding: 0.5rem 0.5rem;
+    margin-left: 1rem;
+}
+
+.suggestion-item {
+    color: white;
+    &:hover {
+        background-color: rgb(83, 83, 83);
+    }
+}
+
+.selected {
+    background-color: rgb(83, 83, 83);
+}
+
+.query-input {
+    background-color: rgb(49, 49, 49);
+    color: gray;
+}
+
+.query-input-container {
+    position: relative;
+    padding: 0.5rem 0.5rem;
+}
+
+.query-input-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: min-content;
+    height: min-content;
+    border-radius: 1rem;
+    padding: 0 0.5rem;
+    background-color: rgb(49, 49, 49);
+}
+
+.icon-search {
+    width: 1rem;
+    height: 1rem;
+    color: white;
+}
+
+.search-button {
+    background-color: rgb(49, 49, 49);
+    cursor: pointer;
+}

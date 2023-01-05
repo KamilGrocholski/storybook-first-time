@@ -1,0 +1,24 @@
+.center {
+    transform: translateX(50%);
+    transform: translateY(50%);
+}
+
+.default-state-container {
+    text-align: center;    
+}
+
+.error {
+    color: red;
+}
+
+.loading {
+    color: black;
+}
+
+.empty {
+    color: black;
+}
+
+.non-empty {
+    color: blue;
+}
